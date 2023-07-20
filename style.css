@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-image: url(https://media.discordapp.net/attachments/1008240962033700915/1123996266955804692/Face_Your_fears_1.jpg?width=917&height=516);
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+
+    padding: 15% 5px 15% 5px;
+}
+nav {
+    background-color: rgb(22, 22, 22);
+    padding-left: 15%;
+}
+nav > a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    background-color: rgb(41, 41, 41);
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+
+    max-width: 700px;
+    min-width: 250px;
+    margin: auto;
+}
+
+#naruto {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#naruto > a > h2 {
+    padding-bottom: 10px;
+}
+
+#one-piece {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#one-piece > a > h2 {
+    margin-bottom: 10px;
+}
+
+#dragon-ball {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#dragon-ball > a > h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+h1 {
+    font-size: 35px;
+}
+p {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
